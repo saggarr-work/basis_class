@@ -1,0 +1,22 @@
+.header{
+    color: rgb(236, 14, 14);
+    text-align: center;
+}
+
+div{
+    background-color: blueviolet;
+    height: 500px;
+    width: 500px;
+}
+#heading_1{
+    color: rgb(8, 255, 8);
+}
+#heading_2{
+    color: rgb(255, 115, 0);
+}
+#heading_3{
+    color: rgb(245, 18, 169);
+}
+#para_1{
+    color: orange;
+}
