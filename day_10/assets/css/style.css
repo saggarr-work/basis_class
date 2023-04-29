@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box; /* border nijer jayga theke ney na dile border body theke ney*/
+    
+}
+/* body{
+    background-color: bisque;
+}
+.wrapper{
+    background-color: rgb(185, 124, 255);
+    height: 300px;
+    width: 300px;
+}
+.wrapper_2{
+    background-color: rgb(203, 206, 27);
+    height: 300px;
+    width: 300px;
+    border: 10px solid gray;
+} */
+
+.container{
+    border: 5px solid red;
+}
+.row{
+    border: 5px solid green;
+    overflow: hidden;
+}
+
+
+.col_1{
+    width: 8.33%;
+}
+.col_2{
+    width: 16.66%;
+}
+.col_3{
+    width: 25%;
+}
+.col_4{
+    width: 33.33%;
+}
+.col_5{
+    width: 41.66%;
+}
+.col_6{
+    width: 50%;
+}
+.col_7{
+    width: 58.33%;
+}
+.col_8{
+    width: 66.66%;
+}
+.col_9{
+    width: 75%;
+}
+.col_10{
+    width: 83.33%;
+}
+.col_11{
+    width: 91.66%;
+}
+.col_12{
+    width: 100%;
+}
+
+/* nicher code ta col diye je shob class suru hoise sei sob class er jonno projojjo */
+[class*="col"]{
+    border: 1px solid gray;
+    float: left;
+    text-align: center;
+}
