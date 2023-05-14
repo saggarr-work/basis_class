@@ -1,13 +1,13 @@
-/* *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-} */
 .my-btn{
     background-color: red;
     color: white;
 }
+<<<<<<< HEAD
 
 .clear{
     margin-top: 20px;
+=======
+.btn-txt{
+    margin-top: 100px;
+>>>>>>> 62706ac1c90fb8b6786257df7950df7bec0e41da
 }
