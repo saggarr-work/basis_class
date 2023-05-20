@@ -60,13 +60,16 @@
     // 4. COMPARISON OPERATORS
         // ==, ===, !=, !==,<, >, <=, >=, <=>
 
-    // 4. LOGICAL OPERATORS
+    // 5. INCREMENT/ DECREMENT OPERATORS
+        // ++something, --something, something++, something-- 
+
+    // 6. LOGICAL OPERATORS
         // and, or, xor, !, &&, ||, 
 
-    // 5. TERNARY OPERATORS
+    // 7. TERNARY OPERATORS
         // ?:, ??
 
-    // 6. ARRAY OPERATORS
+    // 8. ARRAY OPERATORS
         // 
 
 
@@ -82,7 +85,7 @@
     //assignment
     $c = 2;
     $c += 5;
-    echo $c . "<br>";
+    echo $c . "<br>"; 
 
     //comparisn
     $d = 100;
@@ -92,4 +95,37 @@
     echo "<br>"; // output 1 mane true
     echo $d === $f;
     echo "<br>"; //outpot faka mane false
+
+    $x = 10;
+    $y = 100;
+    $z = 50;
+    echo $x <=> $y;
+    echo "<br>";
+
+    echo ($x < $y) && ($x < $z); //duitai true othoba false hote hobe, jekono ekta alada hoilei false hobe
+    echo "<br>";
+    echo ($x < $y) || ($x < $z); //jekono ekta true othoba false hote hobe tahole ttrue hobe
+    echo "<br>";
+?>
+
+<?php
+    // REPETED STATEMENT 
+
+    for($num = 1; $num < 10; $num++){
+        echo $num;
+        echo "<br>";
+    }
+
+    $a = 1;
+    while ($a <= 5){
+        echo "sagar <br>";
+        $a++;
+    }
+
+    $a = 1;
+    do{
+        echo $a;
+        $a++;
+    }
+    while($a > 10);  // do while loop ekbar print korbei 
 ?>
