@@ -8,8 +8,8 @@
         <div class="row">
 
             <?php foreach ($blogs->blogs as $key => $blog) { ?>
-            <div class="col-md-4">
-                <div class="card" style="width: 18rem;">
+            <div class="col-md-4 py-4">
+                <div class="card">
                     <img src="<?php echo $blog["img"] ?>" class="card-img-top w-100" height="180px" alt="...">
                     <div class="card-body">
                         <h5 class="card-title"><?php echo $blog["title"] ?></h5>
@@ -19,6 +19,7 @@
                 </div>
             </div>
             <?php } ?>
+            
         </div>
     </div>
 </section>

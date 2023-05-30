@@ -7,6 +7,8 @@
     <title><?php echo strtoupper($_GET["page"]) ?></title>
     <!-- bootstrap css link  -->
     <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <!-- custom css link  -->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     
