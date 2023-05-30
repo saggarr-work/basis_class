@@ -1,0 +1,2 @@
+//comand
+composer dump-autoload
