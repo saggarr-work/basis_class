@@ -1,3 +1,3 @@
 <?php
-    header("location: routes.php");
+    header("location: routes.php?page=home");
 ?>
