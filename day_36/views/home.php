@@ -38,7 +38,7 @@
 
     <!-- card section  -->
     <section>
-        <div class="container-fluid">
+        <div class="container">
             <div class="row">
                 <h1 class="text-center my-2">All Products</h1>
             </div>
