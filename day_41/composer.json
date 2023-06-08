@@ -1,0 +1,9 @@
+{
+    "name": "sagar/day-41",
+    "description": "calculator with php",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app//"
+        }
+    }
+}

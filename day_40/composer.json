@@ -1,0 +1,14 @@
+{
+    "name": "sagar/day_37",
+    "description": "our first mvc project",
+    "authors": [],
+    "keywords": [],
+    "license": "MIT",
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app//"
+        }
+    }
+}
