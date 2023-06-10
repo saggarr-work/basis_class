@@ -21,7 +21,8 @@
 
         if($_GET["page"] == "home"){
             $homeC = new HomeController();
-            $homeC ->getSliders();
+            $sliderArray = $homeC -> getSliders();
+            print_r($sliderArray);
             include $homeC -> index();
         }
         elseif($_GET["page"] == "contact"){

@@ -9,7 +9,7 @@
             </div>
             <div class="carousel-inner">
                 <?php
-                foreach ($s->sliders as $key => $slider) {
+                foreach ($sliderArray as $key => $slider) {
                 ?>
                     <div class="carousel-item <?php if($key == 0){echo "active";} ?>">
                         <img src="<?php echo $slider; ?>" class="d-block w-100" height="400px" alt="...">
