@@ -19,19 +19,19 @@
                             switch ($_POST["submit"]) {
                                 case "+":
                                     $result = $_POST["f_num"] + $_POST["l_num"];
-                                    echo "<h3>{$_POST["f_num"]} + {$_POST["l_num"]} = {$result}</h3>";
+                                    echo "<h3 class='text-center'>{$_POST["f_num"]} + {$_POST["l_num"]} = {$result}</h3>";
                                     break;
                                 case "-":
                                     $result = $_POST["f_num"] - $_POST["l_num"];
-                                    echo "<h3>{$_POST["f_num"]} - {$_POST["l_num"]} = {$result}</h3>";
+                                    echo "<h3 class='text-center'>{$_POST["f_num"]} - {$_POST["l_num"]} = {$result}</h3>";
                                     break;
                                 case "*":
                                     $result = $_POST["f_num"] * $_POST["l_num"];
-                                    echo "<h3>{$_POST["f_num"]} * {$_POST["l_num"]} = {$result}</h3>";
+                                    echo "<h3 class='text-center'>{$_POST["f_num"]} * {$_POST["l_num"]} = {$result}</h3>";
                                     break;
                                 case "/":
                                     $result = $_POST["f_num"] / $_POST["l_num"];
-                                    echo "<h1>{$_POST["f_num"]} / {$_POST["l_num"]} = {$result}</h1>";
+                                    echo "<h1 class='text-center'>{$_POST["f_num"]} / {$_POST["l_num"]} = {$result}</h1>";
                                     break;
                             }
                         }

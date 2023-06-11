@@ -1,9 +1,9 @@
-@extends('frontend.about')
+@extends('frontend.master')
     
 @section('content')
     <main>
         <section>
-            <h1>about</h1>
+            <h1 class="text-center">about</h1>
         </section>
     </main>
 @endsection
