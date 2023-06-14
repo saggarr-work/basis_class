@@ -1,0 +1,1 @@
+database connected and show its data with model
