@@ -3,6 +3,7 @@
 @section('content')
     <section>
         <h1 class="text-center pt-3">Add Product</h1>
+        <h4 class="text-success text-center">{{session()->get('notification')}}</h4>
         <div class="container d-flex justify-content-center py-4">
 
             <form class="col-md-6" action="{{route('product.store')}}" method="POST">
@@ -29,7 +30,7 @@
                 </div>
                 <div class="mb-3">
                     <label class="form-label">Image</label>
-                    <input type="file" class="form-control" name="image">
+                    <input type="file" class="form-control" name="image" accept="image/*">
                 </div>
                 <button class="btn btn-primary mt-5" type="submit" class="btn btn-primary">Add New Product</button>
             </form>
