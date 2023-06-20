@@ -1,0 +1,16 @@
+1. composer create-project laravel/laravel projectname
+
+* create a database then go to .env file and change the database name 
+ 
+2. composer require laravel/jetstream
+
+3. php artisan jetstream:install livewire
+
+4. npm install (if package.json file is missing)
+
+5. npm run dev
+
+6. php artisan migrate
+
+
+*** for crud       php artisan make:model modelname -mc
